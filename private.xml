@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<root>
+    <item>
+        <name>DeskLeft</name>
+        <identifier>private.deskleft</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::H, ModifierFlag::CONTROL_L,
+            KeyCode::CURSOR_LEFT, ModifierFlag::CONTROL_L
+        </autogen>
+    </item>
+    <item>
+        <name>DeskRight</name>
+        <identifier>private.deskright</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::L, ModifierFlag::CONTROL_L,
+            KeyCode::CURSOR_RIGHT, ModifierFlag::CONTROL_L
+        </autogen>
+    </item>
+    <item>
+        <name>DeskUp</name>
+        <identifier>private.deskup</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::K, ModifierFlag::CONTROL_L,
+            KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L
+        </autogen>
+    </item>
+    <item>
+        <name>DeskDown</name>
+        <identifier>private.deskdown</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::J, ModifierFlag::CONTROL_L,
+            KeyCode::CURSOR_DOWN, ModifierFlag::CONTROL_L
+        </autogen>
+    </item>
+    <item>
+        <name>Kanahenkan</name>
+        <identifier>private.Kanahenkan</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::RETURN, ModifierFlag::SHIFT_L,
+            KeyCode::SPACE, ModifierFlag::COMMAND_L
+        </autogen>
+    </item>
+    <item>
+        <name>R_ShiftToFn</name>
+        <identifier>private.rshifttofn</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::SHIFT_R,
+            KeyCode::FN
+        </autogen>
+    </item>
+    <item>
+        <name>L_ShiftToFn</name>
+        <identifier>private.lshifttofn</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::SHIFT_L,
+            KeyCode::FN
+        </autogen>
+    </item>
+</root>

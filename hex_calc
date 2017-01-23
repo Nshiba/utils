@@ -1,0 +1,35 @@
+#! /usr/bin/python2.7
+
+import sys
+
+def add_hex(target):
+    num = 0
+    for i in range(2, len(target)):
+        num += int(target[i])
+
+    print(hex(num))
+
+def minus_hex(target):
+    num = 0
+    for i in range(2, len(target)):
+        num -= int(target[i])
+
+    print(hex(num))
+
+def multi_hex(target):
+    num = 0
+    for i in range(2, len(target)):
+        num *= int(target[i])
+
+    print(hex(num))
+
+type_txt = sys.argv[1]
+
+if type_txt == '+':
+    add_hex(sys.argv)
+elif type_txt == '-':
+    minus_hex(sys.argv)
+elif type_txt == '*':
+    multi_hex(sys.argv)
+elif type_txt == '/':
+    print('no support')

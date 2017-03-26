@@ -1,0 +1,8 @@
+#!/bin/bash
+
+ROOT=`pwd`
+
+$ROOT/gradlew assembleDebug
+adb install -r $ROOT/app/build/outputs/apk/app-debug.apk
+adb shell am start -n "net.nashihara.naroureader/net.nashihara.naroureader.activities.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+osascript -e 'display notification "finish" with title "Build and Install Debug App"'
